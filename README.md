@@ -1,12 +1,57 @@
-# Project Title
+# React-with-redux-app-practice
 
-React-with-redux-app-practice
+> As title.
 
 ## Getting Started
 
 >These instructions will get you a copy of the project up and running on your local >machine for development and testing purposes. See deployment for notes on how to >deploy the project on a live system.
 
-not yet
+1. json-server 
+   ```
+   // install json-server in global
+   $ npm -g json-server
+   
+   // luanch backend API
+   $ json-server --watch json-data/db.json --routes json-data/routes.json --port 5566
+   ```
+   Then you can call the API by Postman , the api URL like below:
+   
+   ```
+   http://localhost:5566/api/v2/accounts
+   ```
+   you will get json response like :
+   
+   ```
+   [
+    {
+        "id": 1,
+        "name": "AAA",
+        "title": "product manager"
+    },
+    {
+        "id": 1,
+        "name": "BBB",
+        "title": "project manager"
+    },
+    {
+        "id": 2,
+        "name": "CCC",
+        "title": "senior software engineer"
+    },
+    {
+        "id": 3,
+        "name": "DDD",
+        "title": "senior software engineer"
+    },
+    {
+        "id": 4,
+        "name": "FFF",
+        "title": "software engineer"
+    }
+   ]
+   ```
+
+   
 
 ## Prerequisites
 

@@ -1,0 +1,9 @@
+{
+  "accounts": [
+    { "id": 1, "name": "AAA", "title": "product manager" },
+    { "id": 1, "name": "BBB", "title": "project manager" },
+    { "id": 2, "name": "CCC", "title": "senior software engineer" },
+    { "id": 3, "name": "DDD", "title": "senior software engineer" },
+    { "id": 4, "name": "FFF", "title": "software engineer" }
+  ]
+}
