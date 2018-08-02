@@ -1,0 +1,28 @@
+{
+  "name": "react-with-redux-app-practice",
+  "version": "0.0.1",
+  "description": "react with redux app practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoninGAO/react-with-redux-app-practice.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "bootstrap3",
+    "RxJS"
+  ],
+  "author": "RoninGAO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RoninGAO/react-with-redux-app-practice/issues"
+  },
+  "homepage": "https://github.com/RoninGAO/react-with-redux-app-practice#readme",
+  "dependencies": {
+    "webpack": "^4.16.0"
+  }
+}
