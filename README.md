@@ -6,22 +6,25 @@
 
 >These instructions will get you a copy of the project up and running on your local >machine for development and testing purposes. See deployment for notes on how to >deploy the project on a live system.
 
-1. json-server 
-   ```
+1. json-server
+
+   ```#!/bin/bash
    // install json-server in global
    $ npm -g json-server
-   
-   // luanch backend API
+
+   // launch backend API
    $ json-server --watch json-data/db.json --routes json-data/routes.json --port 5566
    ```
+
    Then you can call the API by Postman , the api URL like below:
-   
-   ```
+
+   ```#!api url
    http://localhost:5566/api/v2/accounts
    ```
+
    you will get json response like :
-   
-   ```
+
+   ```#!json
    [
     {
         "id": 1,
@@ -50,8 +53,6 @@
     }
    ]
    ```
-
-   
 
 ## Prerequisites
 
