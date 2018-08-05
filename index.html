@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pure React Samples</title>
+</head>
+
+<body>
+  <!-- #region -->
+  <div id="react-container"></div>
+  <!-- #endregion -->
+
+  <!--React reference block-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.2/react.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/15.6.2/react-dom.js'></script>
+
+  <!--babel-core-->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.38/browser.js'></script>
+
+  <!-- JSX block-->
+  <script type="text/babel">
+    const items = [
+      { id: 1, name: "AAA" },
+      { id: 2, name: "BBB" },
+      { id: 3, name: "CCC" },
+      { id: 4, name: "DDD" }
+    ]
+
+    const Menu = ({items}) =>(
+      <ul>
+        {items.map( item =>
+            <li className="menu-li" key={item.id}>{item.name}</li>
+          )  
+        }
+      </ul>
+    )
+
+    ReactDOM.render(<Menu items={items} />,document.getElementById("react-container"))
+
+  </script>
+</body>
+
+</html>
